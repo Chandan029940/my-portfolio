@@ -1,0 +1,88 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea{
+    height: 4rem!important;
+}
+.c-blur1{
+    top: 10rem;
+    left: -14rem;
+}
+.c-blur2{
+    top: -4rem;
+    left: 50rem;
+}
+
+@media screen and (max-width: 480px){
+
+    .contact-form{
+        flex-direction: column;    
+        padding: 0 1rem;          
+        height: auto;             
+        margin-top: 12rem;
+        gap: -2rem;
+    }
+
+    .c-right{
+        flex: none;
+        width: 100%;
+        justify-content: center;
+        margin-top: -5rem;
+        margin-bottom: 7rem;
+        transform: scale(0.9);
+    }
+
+    .c-right > form{
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .c-right .user{
+        width: 100%;      
+        max-width: 22rem;
+        height: 2rem;
+        font-size: 15px;
+    }
+
+    textarea{
+        width: 100%;
+        max-width: 22rem;
+        height: 6rem !important;
+    }
+
+    .c-blur1{
+             display: none;  
+    }
+    .awesome{
+        display: flex;
+        flex-direction: column;
+    }
+}

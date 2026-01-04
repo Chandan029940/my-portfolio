@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <div className="contact-form" id="Contact">
             <div className="w-left">
-                <div className="awesome">
+                <div className="awesomes">
                     <span style={{ color: darkMode ? 'white' : '' }}>Get in touch</span>
                     <span>Contact me</span>
                     <div 

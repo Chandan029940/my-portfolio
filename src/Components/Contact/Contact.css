@@ -99,8 +99,13 @@ textarea{
     .c-blur1{
              display: none;  
     }
-    .awesome{
-        display: flex;
-        flex-direction: column;
+    .awesomes{
+        
+        width: 90%;
+        margin-top: -7rem;
+        margin-bottom: 9rem;
+        margin-left: -0.1rem;
+        margin-left: 20px;
+        left: 1rem;
     }
 }
